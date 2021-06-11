@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <title>Agente SMTT Online</title>
+    <style>
+      df-messenger {
+        --df-messenger-bot-message: #665100;
+        --df-messenger-button-titlebar-color: #fcbb07;
+        --df-messenger-chat-background-color: #fafafa;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #fcbb07;
+        --df-messenger-user-message: #479b3d;
+      }
+    </style>
+  </head>
+  <body style="background-color: #d3d3d3">
+    <df-messenger
+      expand="true"
+      chat-icon="https://raw.githubusercontent.com/LuizCarlosVilela/smtt-initial-page/main/src/assets/images/logoSMTT32x32.png"
+      intent="WELCOME"
+      chat-title="AgenteSMTTVirtual"
+      agent-id="49521de3-3687-4345-93c2-497f4cbc4527"
+      language-code="pt-BR"
+    ></df-messenger>
+    <div id="root"></div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  </body>
+</html>
